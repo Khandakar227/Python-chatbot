@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evy - chatbot</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <script src="/static/js/index.js" defer async></script>
+</head>
+
+<body>
+    <div class="max-w-96 mx-auto v-screen shadow rounded">
+        <h1 class="text-center p-2 bg-emerald-500 text-white my-1 rounded"> Evy :> </h1>
+        <p class="p-2" id="notifier"></p>
+        <div class="messages" data-name="messages"></div>
+        <form id="msg-box" class="max-w-96 shadow pt-1 bg-white">
+            <input id="msg-input" type="text" name="message" id="message" autocomplete="off">
+            <button type="submit" name="send">SEND</button>
+        </form>
+    </div>
+</body>
+</html>

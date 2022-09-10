@@ -1,0 +1,88 @@
+.max-w-96 {
+  max-width: 780px;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+.v-screen {
+  height: 100vh;
+}
+.shadow {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.text-center {
+  text-align: center;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.bg-emerald-500 {
+  background-color: rgb(16, 185, 129);
+}
+body {
+  font-family: system-ui;
+}
+.text-white {
+  color: white;
+}
+* {
+  margin: 0;
+}
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+form input {
+  flex: 1;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid slategray;
+}
+.pt-1 {
+  padding-top: 0.25rem;
+}
+button {
+  outline: none;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+.bg-white {
+  background-color: white;
+}
+.avatar {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.message {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 5px;
+  margin-bottom: 2rem;
+}
+.messages {
+  padding: 0 0.5rem;
+  height: calc(100vh - 130px);
+  overflow: auto;
+}
+[data-sender="bot"] {
+  margin-right: 3rem;
+}
+[data-sender="user"] {
+  justify-content: end;
+  margin-left: 3rem;
+  background-color: rgb(0 0 0 / 0.1);
+}
+#notifier {color: red; font-size: small;}
